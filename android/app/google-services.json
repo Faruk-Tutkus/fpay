@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163712727936",
+    "project_id": "fpay-71f84",
+    "storage_bucket": "fpay-71f84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163712727936:android:4bf2125963f9941ac15f65",
+        "android_client_info": {
+          "package_name": "com.faruktutkus.fpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163712727936-8frnsho5745uc8bqju7fpbvs5hpj16h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD00WnESJaoo0GZUm-ck3WPlAOfvAUwi54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163712727936-8frnsho5745uc8bqju7fpbvs5hpj16h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
