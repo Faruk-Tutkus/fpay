@@ -6,12 +6,12 @@ interface IconProps {
     name: string;
     size?: number;
     color?: string;
-    zodiac?: boolean;
+    type?: 'ionicons' | 'material-community';
     style?: StyleProp<TextStyle>;
 }
 
-const Icon = ({ name, size, color, zodiac, style }: IconProps) => {
-  if (zodiac) {
+const Icon = ({ name, size, color, type, style }: IconProps) => {
+  if (type === 'material-community') {
     return (
       <MaterialCommunityIcons name={name as keyof typeof MaterialCommunityIcons.glyphMap} size={size} color={color} style={style} />
     )

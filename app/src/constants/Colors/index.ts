@@ -1,11 +1,10 @@
 const Colors = {
   background: '#232323',
   surface: '#315653',
-  border: '#4C4C4C',
+  border: '#3c3c3c',
   text: '#ced0de',
-  errorBorder: '#E23642',
-  errorText: '#F0656D',
-  dolar: '#315653'
+  buttonPrimary: '#7ADAA5',
+  buttonSecondary: '#239BA7',
 };
 
 export default Colors;  

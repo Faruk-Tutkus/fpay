@@ -1,4 +1,4 @@
 import { Redirect } from 'expo-router';
 export default function Index() {
-  return <Redirect href="/src/screens/side/SplashScreen" />
+  return <Redirect href="/src/screens/auth/SignIn" />
 } 

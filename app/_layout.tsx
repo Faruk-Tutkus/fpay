@@ -17,6 +17,7 @@ export default function RootLayout() {
     <Stack
       screenOptions={{
         headerShown: false,
+        animation: 'fade',
         contentStyle:{
           backgroundColor: Colors.background
         }
@@ -25,6 +26,8 @@ export default function RootLayout() {
       <Stack.Screen name="src/screens/side/SplashScreen" />
       <Stack.Screen name="src/screens/side/StartScreen" />
       <Stack.Screen name="src/screens/main/Home" />
+      <Stack.Screen name="src/screens/auth/SignIn" />
+      <Stack.Screen name="src/screens/auth/SignUp" />
     </Stack>
   )
 }

@@ -1,25 +1,24 @@
 import { Colors } from "@constants";
 import { StyleSheet } from "react-native";
-
 const styles = StyleSheet.create({
-  textContainer: {
+  container: {
+    minWidth: '80%',
+    height: 50,
+    borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
-    bottom: -35,
-    width: '60%',
-    alignSelf: 'center'
+    flexDirection: 'row',
+    gap: 20,
   },
   text: {
-    textAlign: 'center',
-    fontSize: 12,
-    fontFamily: 'Domine-Regular'
-  },
-  textLink: {
     color: Colors.text,
+    fontSize: 18,
     fontFamily: 'Domine-Bold',
-    textDecorationLine: 'underline',
-    fontSize: 12
+  },
+  leftImage: {
+    width: 22,
+    height: 22,
   }
-})
+}) 
 
 export default styles
